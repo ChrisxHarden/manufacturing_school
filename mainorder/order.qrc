@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/qss">
+        <file>order.qss</file>
+    </qresource>
+    <qresource prefix="/new/pic">
+        <file>pic/8.gif</file>
+    </qresource>
+</RCC>

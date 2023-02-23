@@ -1,0 +1,220 @@
+QDialog#MainOrderDialog{
+	background-color: rgb(64,64,44);
+}
+QDialog#LoginDialog{
+	background-color: rgb(162,132,107);
+}
+QMessageBox{
+	background-color: rgb(162,132,107);
+}
+QMessageBox QPushButton{
+	min-height:28px;
+}
+QDialog#MamaDialog{
+	background-color: rgb(81,64,44);
+}
+QDialog#RegisterDialog{
+	background-color: rgb(162,132,107);
+}
+QDialog#DishDialog{
+	/*background-color: rgb(139,91,53);*/
+	background-color: rgb(239,229,218);
+}
+QGraphicsView{
+	border: 0;
+	background-color: rgb(239,229,218);
+}
+QDialog#WelcomeDialog{
+	background-color: rgb(162,137,107);
+}
+
+QGraphicsView{
+	background-color: rgb(239,229,218);
+}
+QPushButton{
+	color: rgb(43,26,10);
+	font: bold 11pt ;	
+	border: 0;
+	background-color: rgb(206,178,155); 
+	padding-left: 6px;
+	padding-right: 5px;
+}
+QPushButton:hover{
+	background-color: rgb(221,196,175);
+}
+QPushButton:pressed{
+	background-color: rgb(178,142,114);
+}
+QPushButton#bt_register,#bt_abort{
+	font: 11pt;
+	background-color: rgb(239,229,218);
+}
+QPushButton#bt_user_login{
+	font: bold 13pt;
+}
+QPushButton#bt_abort1{
+	background-color: rgb(239,229,218);
+}
+
+QLabel{
+	font:  10pt;
+	color:  rgb(43,26,10);
+}
+QLabel#label_user_1,#label_user_2,#label_n,#label_phone{
+	font:  bold 11pt;
+	color:  rgb(43,26,10);
+}
+QLabel#label_total_money,#label_total{
+	color:  rgb(239,229,218);
+	font: 14pt;
+	background-color: rgb(139,91,53);
+}
+QLabel#label_register{
+	font: bold 15pt rgb(43,26,10);
+}
+QLabel#label_desc{
+	/*background-color:  rgb(239,229,218);*/
+	color: rgb(43,26,10);
+	padding: 15px;
+}
+QLabel#label_name,#label_jia,#label_huiyuan,#label_numb,#label_n_price{
+	/*color: rgb(239,229,218);*/
+	color: rgb(43,26,10);
+	font: 13pt;
+}
+QLabel#label_name{
+	font: bold 14pt;
+}
+
+QLineEdit{
+	border: 0;
+	background-color: rgb(226,205,181);
+	color: rgb(43,26,10);
+	font: 10pt ;
+}
+
+QLineEdit{
+	border: 0;
+	background-color: rgb(226,205,181);
+	color: rgb(43,26,10);
+	font: 10pt ;
+}
+
+/*
+QTabBar::tab {
+	 
+	 background-color:#6B9B9B;
+	 min-width:50px;
+}
+
+
+QTabBar::tab:selected  {
+	 background-color:#CBCBCB;
+}	
+QTabBar::tab:hover {
+	 background-color:#BBBBBB;
+}*/
+
+QTableView{
+	background-color: rgb(139,91,53);
+	border: 0;
+	color: rgb(239,229,218);
+	font:12pt ;	
+}
+
+/*表格表头的样式*/
+QHeaderView::section{
+	background-color: rgb(139,91,53);
+	color: rgb(239,229,218);
+	font:10pt ;
+	border:0px ;/*先把边框宽度设为0，即隐藏所有表头边框*/
+	border-bottom:1px solid rgb(249,243,236);/*然后只显示下边框，因为上边框和左右边框是整个Table的边框，都显示会有2px的边框宽度*/
+	height:20px;/*表头高度*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+/*====================点菜界面的tab栏============================*/
+QTabWidget::pane{
+	background-color: rgb(239,229,218);
+	border: 0;
+}
+/*用于实现tab上面的两个按钮标题*/
+QTabWidget::tab-bar{
+}
+QTabBar::tab{
+	color: rgb(43,26,10);
+	font:  bold 10pt ;
+	background-color: rgb(239,229,218);
+	width: 80px;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	margin-left:6px;
+}
+QTabBar::tab:first{
+	margin-left:0px;
+}
+QTabBar::tab:!selected{
+	background-color: rgb(43,26,10);
+	color: rgb(239,229,218);
+	font: 10pt ;
+}
+
+
+
+/* 设置垂直滚动条基本样式*/
+QScrollBar:vertical
+{
+    width:16px;
+    background:rgba(0,128,0,0%);
+    margin:0px,0px,0px,0px;
+	min-height:20px;
+    padding-top:16px;   /* 留出9px给上面和下面的箭头*/
+    padding-bottom:16px;
+}
+QScrollBar::handle:vertical
+{
+    width:16px;
+    background:rgba(0,128,0,25%);
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:16px;
+    background:rgba(0,128,0,50%);   /* 鼠标放到滚动条上的时候，颜色变深*/
+    min-height:20;
+}
+
+QScrollBar::add-line:vertical   /* 设置下箭头的*/
+{
+    height:9px;width:16px;
+	background: #444444;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical   /* 设置上箭头*/
+{
+    height:9px;width:16px;
+	background: #444444;
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical:hover   /* 当鼠标放到下箭头上的时候*/
+{
+    height:16px;width:16px;
+	background: #444444;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical:hover  /* 当鼠标放到下箭头上的时候*/
+{
+    height:16px;width:16px;
+	background: #444444;
+    subcontrol-position:top;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   /* 当滚动条滚动的时候，上面的部分和下面的部分*/
+{
+    background: none;
+}
+QScrollBar:top-arrow:vertical, QScrollBar:bottom-arrow:vertical {
+    border: 2px solid #333333;
+    width: 6px;
+    height: 6px;
+    background: #5f5f5f;
+}
