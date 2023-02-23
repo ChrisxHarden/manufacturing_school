@@ -1,2 +1,3 @@
 # Intern_manufacturing_school
-生产实习2成果物
+This is a simulation of an order system of a restaurant
+
